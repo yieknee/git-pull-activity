@@ -15,9 +15,10 @@ def truck_noise
 end
 
 # Task 3:
-#   1. Partner 1: change this method to puts "tick", commit and push
-#   2. Partner 2: *before pulling*, change this method to "tock" and commit. Don't push yet.
-#   3. Partner 2: now run git pull.
+#   1. Partner 1: Change this method to puts "tick", commit and push.
+#   2. Partner 2: *Before pulling*, change this method to "tock" and commit.
+#   3. Partner 2: Try to push. Git should warn you that your local copy is out of date.
+#   3. Partner 2: Now run git pull.
 def clock_noise
-  puts "tock"
+  puts ""
 end
