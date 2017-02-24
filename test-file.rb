@@ -14,6 +14,8 @@
 #   puts "honk"
 # end
 
+this is a test!
+
 # Task 3:
 #   1. Partner 1: Change this method to puts "tick", commit and push.
 #   2. Partner 2: *Before pulling*, change this method to "tock" and commit.
