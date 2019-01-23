@@ -10,7 +10,7 @@ To demonstrate `git pull`, we've provided a repository to work with. Follow thes
 1. **One** partner should fork the repository linked in the calendar
 1. Whoever forked the repo should add the other partner as a collaborator.
 1. **Both** partners should clone the forked repo.
-1. **Both** partners should open `pull_practice.rb` in Atom.
+1. **Both** partners should open `pull_practice.rb` in VS Code.
 
 ## Pulling Changes From GitHub
 
@@ -49,7 +49,7 @@ Turn your attention to `Task 3` in the activity. Here are your instructions:
     ```
 
     Git won't let you push if there are changes on the server that you don't have locally. This is a good thing! It reduces the chance of something going wrong.
-1. **Partner 2** should now `git pull`. These two changes should be compatible, but git will still need to do some work to put them together. Like any other piece of work, the merge needs to have a commit, so git will open up Atom to ask you for a commit message. The default is fine, so save and close Atom. This will allow the pull to finish.
+1. **Partner 2** should now `git pull`. These two changes should be compatible, but git will still need to do some work to put them together. Like any other piece of work, the merge needs to have a commit, so git will open up ask for a commit message. The default message is perfect, and it's standard to accept the default commit message. Finishing this commit message will allow the pull process to finish-- you have completed pulling the `git pull` (fetch and merge) command with this!
 1. After doing a merge, it's always wise to check git's work. **Partner 2** should open up the file and verify that the two commits were merged cleanly. Both methods should be uncommented. In the real world, you would run your tests and make sure nothing broke.
 1. **Partner 2** is now free to push their work to GitHub.
 
@@ -76,7 +76,7 @@ As clever as Git may be, sometimes there's not an obvious right way to merge two
 
     Git has included both versions of the method, and labeled where they came from. `HEAD` is the local copy, and `master` is the version from GitHub.
 1. **Partner 2:** Work with your partner to resolve the conflict.
-    - Using Atom, pick which of the versions you want to use, and remove all the extra stuff that GitHub added. The end result should be valid ruby code.
+    - Using VS Code, pick which of the versions you want to use, and remove all the extra stuff that GitHub added. The end result should be valid ruby code.
 
       ```ruby
       def clock_noise
