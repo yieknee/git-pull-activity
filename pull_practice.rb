@@ -29,7 +29,7 @@
 #   puts "choo choo"
 # end
 
-# Task 4: Merge Conflict
+#Task 4: Merge Conflict
 # Both partners should modify the same line in different ways.
 # Git doesn't know what to do in this case, so you'll have to
 # merge the two versions by hand.
