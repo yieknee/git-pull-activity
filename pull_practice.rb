@@ -22,7 +22,7 @@ end
 # sets of changes together.
 
 def robot_noise
-  puts "beep boop"
+  puts "beep boop beep"
 end
 
 def train_noise
